@@ -3,48 +3,65 @@
   <head>
     <meta charset="utf-8">
     <title>Sign In</title>
+    <!-- INLINE STYLE -->
+<style>
+html {
+  font-family: san-serif bold;
+}
+body {
+  width: 50%;
+  max-width: 800px;
+  min-width: 480;
+  margin: 0px 0px 89px 80px;
+  /* n1 = shift from top | n2 = | n3=  | n4= shift to right  */
+  }
+form{
+  color: white;
+  background-color: #52796f;
+  padding: 33px 0px 33px 44px;
+  /* n4 = left side | n3 = bottom | n2 = Right Side ? | n1 = Top*/
+}
+</style>
   </head>
-
   <body>
     <!-- LABEL AND INPUT  -->
     <!-- SELECT = DROPDOWN BOX -->
-    <h3> Sign Up Page</<h3>
+    <h3> Sign Up Today!</h3>
     <p>All fields are required</p>
-
-      <form class="" action="index.html" method="get">
-
-        <label for=FN""> Frist Name: </label>
-        <input id="FN type="text" name="" placeholder="First Name">
-
-        <label for="LN"> Last Name: </label>
-        <input id="fn" type="text" name="" placeholder="Last Name">
-
-        <!-- THIS CREATES SPACING -->
-        <p></p>
-
-        <label for="E"> Email: </label>
-        <input id="E" type="text" name="" placeholder="Email">
-
-        <label for="P"> Passowrd: </label>
-        <input id="P" type="text" name="" Required>
-
-        <p>Are you 18 or older?</p>
-        <label for="Y"> Yes: </label>
-        <input id="Y" type="radio" name="Over" value="Yes">
-
-        <label for="N"> No: </label>
-        <input id="N" type="radio" name="Over" value="N">
+    <!--  -->
+<form class="" action="index.html" method="get">
+<label for=FN""> Frist Name: </label>
+<input id="FN type="text" name="" placeholder="First Name">
+<br> <br>
+    <!--  -->
+<label for="LN"> Last Name: </label>
+<input id="fn" type="text" name="" placeholder="Last Name">
+<br> <br>
+    <!-- EMAIL -->
+<label for="E"> Email Address: </label>
+<input id="E" type="text" name="" placeholder="Email">
+<br> <br>
+    <!--  -->
+<label for="P"> Passowrd: </label>
+<input id="P" type="text" name="" placeholder="password" Required>
+<br> <br>
+    <!-- RADIO 'YES/NO' -->
+<p>Are you 18 or older?</p>
+<label for="Y"> Yes: </label>
+<input id="Y" type="radio" name="Over" value="Yes">
 <!--  -->
-        <p>Do you have a credit card?</p>
-        <select class="" name="Payment">
-          <<option value="Credit Card"> Credit Card </option>
-          <<option value="PayPal"> PayPal </option>
-        </select>
-<!--  -->
-        <!-- <P> CREATES SPACE <INPUT> ENABLES BUTTONS -->
-        <p></p>
-        <input type="submit" name="" value="Sign Up!">
-      </form>
-
-  </body>
+<label for="N"> No: </label>
+<input id="N" type="radio" name="Over" value="N">
+<br> <br>
+    <!-- CREDIT CARD -->
+<p>Do you have a credit card?</p>
+<select class="" name="Payment">
+<option value="Credit Card"> Credit Card </option>
+<option value="PayPal"> PayPal </option>
+</select>
+<br> <br>
+    <!-- SUBMIT -->
+<input type="submit" name="" value="Sign Up!">
+</form>
+</body>
 </html>
