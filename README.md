@@ -5,3 +5,5 @@ A fun application that allows users to
 (3) establish monetary contributions
 (4) communicate with other members
 (5) sent messages
+
+Branching @ 35:00 | https://www.youtube.com/watch?v=RGOj5yH7evk
